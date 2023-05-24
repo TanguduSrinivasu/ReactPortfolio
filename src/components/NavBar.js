@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/logo.jpg';
+// import logo from '../assets/logo.jpg';
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -17,9 +17,9 @@ const NavBar = () => {
 
   return (
     <div className='fixed w-full h-[80px] px-4 bg-[#0a192f] text-gray-300 flex items-center justify-between'>
-        <img className='w-[56px]' src={logo} alt="Portfolio Logo"/>
+        <h2 className='font-bold text-2xl'>{`<Srinivasu>`}</h2>
 
-    <ul className='hidden md:flex'>  
+    <ul className='hidden md:flex font-bold'>  
     {/* if the width of the website is above 768px(medium) then flex will be applied or else it will be hidden */}
         <li>
         <Link to="home" smooth={true} duration={500}>
@@ -87,23 +87,23 @@ const NavBar = () => {
     {/* SocialIcons */}
     <ul className='hidden lg:flex flex-col fixed top-[35%] left-0 '>
          {/* if the width of the website is above 1024px(medium) then it will be shown */} 
-        <li className='w-[160px] h-[60px] bg-blue-600 ml-[-100px] hover:ml-[-10px] duration-500'>
-            <a href='/' className='flex justify-between items-center mt-[15px]'>
+        <li className='w-[160px] h-[60px] bg-blue-600 ml-[-100px] hover:ml-[0px] duration-500'>
+            <a href='https://www.linkedin.com/in/tangudu-srinivasu-779563147/' target='_blank' className='flex justify-between items-center mt-[15px]'>
                 LinkedIn<FaLinkedin size={30}/>
             </a>
         </li>
-        <li className='w-[160px] h-[60px] bg-[#333333] ml-[-100px] hover:ml-[-10px] duration-500'>
-            <a href='/' className='flex justify-between items-center mt-[15px]'>
+        <li className='w-[160px] h-[60px] bg-[#333333] ml-[-100px] hover:ml-[0px] duration-500'>
+            <a href='https://github.com/TanguduSrinivasu' target='_blank' className='flex justify-between items-center mt-[15px]'>
                 Github<FaGithub size={30}/>
             </a>
         </li>
-        <li className='w-[160px] h-[60px] bg-[#6fc2b0] ml-[-100px] hover:ml-[-10px] duration-500'>
-            <a href='/' className='flex justify-between items-center mt-[15px]'>
+        <li className='w-[160px] h-[60px] bg-[#6fc2b0] ml-[-100px] hover:ml-[0px] duration-500'>
+            <a href = "mailto: srinivasu.tangudu56@gmail.com" target='_blank' className='flex justify-between items-center mt-[15px]'>
                 Email<HiOutlineMail size={30}/>
             </a>
         </li>
-        <li className='w-[160px] h-[60px] bg-[#565f69] ml-[-100px] hover:ml-[-10px] duration-500'>
-            <a href='/' className='flex justify-between items-center mt-[15px]'>
+        <li className='w-[160px] h-[60px] bg-[#565f69] ml-[-100px] hover:ml-[0px] duration-500'>
+            <a href='https://drive.google.com/file/d/18S-41kIz8uv7n6d6pp1tSLL1JYOog1ZT/view?usp=share_link' target='_blank' className='flex justify-between items-center mt-[15px]'>
                 Resume<BsFillPersonLinesFill size={30}/>
             </a>
         </li>

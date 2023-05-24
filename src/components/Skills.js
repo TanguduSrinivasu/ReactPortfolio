@@ -34,7 +34,7 @@ const Skills = () => {
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                    <img className='w-20 mx-auto' src={tailwind} alt="CSS Icon"/>
-                   <p className='py-4'>Tailwind</p>
+                   <p className='py-4'>TailwindCSS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                    <img className='w-20 mx-auto' src={github} alt="CSS Icon"/>
