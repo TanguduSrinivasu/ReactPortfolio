@@ -30,11 +30,11 @@ const Work = () => {
               </p>
 
               <div className='pt-8 text-center'>
-                <a href='https://cryptobase-8009f.web.app/' target='_blank'>
+                <a href='https://cryptobase-8009f.web.app/' target='_blank' rel="noopener noreferrer">
                   <button className='text-center bg-white rounded-lg px-4 py-3 m-2 text-gray-700 font-bold'>Demo</button>
                 </a>
 
-                <a href='https://github.com/TanguduSrinivasu/ReactCrypto.git' target='_blank'>
+                <a href='https://github.com/TanguduSrinivasu/ReactCrypto.git' target='_blank' rel="noopener noreferrer">
                   <button className='text-center bg-white rounded-lg px-4 py-3 m-2 text-gray-700 font-bold'>Code</button>
                 </a>
               </div>
@@ -52,11 +52,11 @@ const Work = () => {
               </p>
 
               <div className='pt-8 text-center'>
-                <a href='https://netflix-clone-react-e8e63.web.app/' target='_blank'>
+                <a href='https://netflix-clone-react-e8e63.web.app/' target='_blank' rel="noopener noreferrer">
                   <button className='text-center bg-white rounded-lg px-4 py-3 m-2 text-gray-700 font-bold'>Demo</button>
                 </a>
 
-                <a href='https://github.com/TanguduSrinivasu/ReactNetflixClone.git' target='_blank'>
+                <a href='https://github.com/TanguduSrinivasu/ReactNetflixClone.git' target='_blank' rel="noopener noreferrer">
                   <button className='text-center bg-white rounded-lg px-4 py-3 m-2 text-gray-700 font-bold'>Code</button>
                 </a>
               </div>
@@ -74,11 +74,11 @@ const Work = () => {
               </p>
 
               <div className='pt-8 text-center'>
-                <a href='https://react-ecommerce-sigma-six.vercel.app/' target='_blank'>
+                <a href='https://react-ecommerce-sigma-six.vercel.app/' target='_blank' rel="noopener noreferrer">
                   <button className='text-center bg-white rounded-lg px-4 py-3 m-2 text-gray-700 font-bold'>Demo</button>
                 </a>
 
-                <a href='https://github.com/TanguduSrinivasu/ReactEcommerce.git' target='_blank'>
+                <a href='https://github.com/TanguduSrinivasu/ReactEcommerce.git' target='_blank' rel="noopener noreferrer">
                   <button className='text-center bg-white rounded-lg px-4 py-3 m-2 text-gray-700 font-bold'>Code</button>
                 </a>
               </div>

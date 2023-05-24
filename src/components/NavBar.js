@@ -88,22 +88,22 @@ const NavBar = () => {
     <ul className='hidden lg:flex flex-col fixed top-[35%] left-0 '>
          {/* if the width of the website is above 1024px(medium) then it will be shown */} 
         <li className='w-[160px] h-[60px] bg-blue-600 ml-[-100px] hover:ml-[0px] duration-500'>
-            <a href='https://www.linkedin.com/in/tangudu-srinivasu-779563147/' target='_blank' className='flex justify-between items-center mt-[15px]'>
+            <a href='https://www.linkedin.com/in/tangudu-srinivasu-779563147/' target='_blank' rel="noopener noreferrer" className='flex justify-between items-center mt-[15px]'>
                 LinkedIn<FaLinkedin size={30}/>
             </a>
         </li>
         <li className='w-[160px] h-[60px] bg-[#333333] ml-[-100px] hover:ml-[0px] duration-500'>
-            <a href='https://github.com/TanguduSrinivasu' target='_blank' className='flex justify-between items-center mt-[15px]'>
+            <a href='https://github.com/TanguduSrinivasu' target='_blank' rel="noopener noreferrer" className='flex justify-between items-center mt-[15px]'>
                 Github<FaGithub size={30}/>
             </a>
         </li>
         <li className='w-[160px] h-[60px] bg-[#6fc2b0] ml-[-100px] hover:ml-[0px] duration-500'>
-            <a href = "mailto: srinivasu.tangudu56@gmail.com" target='_blank' className='flex justify-between items-center mt-[15px]'>
+            <a href = "mailto: srinivasu.tangudu56@gmail.com" target='_blank' rel="noopener noreferrer" className='flex justify-between items-center mt-[15px]'>
                 Email<HiOutlineMail size={30}/>
             </a>
         </li>
         <li className='w-[160px] h-[60px] bg-[#565f69] ml-[-100px] hover:ml-[0px] duration-500'>
-            <a href='https://drive.google.com/file/d/18S-41kIz8uv7n6d6pp1tSLL1JYOog1ZT/view?usp=share_link' target='_blank' className='flex justify-between items-center mt-[15px]'>
+            <a href='https://drive.google.com/file/d/18S-41kIz8uv7n6d6pp1tSLL1JYOog1ZT/view?usp=share_link' target='_blank' rel="noopener noreferrer" className='flex justify-between items-center mt-[15px]'>
                 Resume<BsFillPersonLinesFill size={30}/>
             </a>
         </li>
