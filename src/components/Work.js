@@ -13,7 +13,7 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex  flex-col justify-center w-full h-full'>
         <div className='pb-3 pt-16'>
           <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Work</p>
-          <p className='pt-4'>// Check out some of my recent work</p>
+          <p className='pt-4'>Check out some of my recent work</p>
         </div>
 
         {/* container */}
