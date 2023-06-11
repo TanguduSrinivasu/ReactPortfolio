@@ -94,7 +94,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <p className='text-2xl font-bold text-white  tracking-wider'>
-                ReactJS Application
+              Coming Soon
               </p>
 
               <div className='pt-8 text-center'>
@@ -117,7 +117,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <p className='text-2xl font-bold text-white  tracking-wider'>
-                ReactJS Application
+              Coming Soon
               </p>
 
               <div className='pt-8 text-center'>
@@ -141,7 +141,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <p className='text-2xl font-bold text-white  tracking-wider'>
-                ReactJS Application
+                Coming Soon
               </p>
 
               <div className='pt-8 text-center'>

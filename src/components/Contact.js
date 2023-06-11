@@ -8,7 +8,7 @@ const Contact = () => {
 
             <div className='pb-8 pt-16 text-gray-300'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Contact</p>
-                <p className='py-4'>Submit the below form or Shoot me an email to myemail@gmail.com</p>
+                <p className='py-4'>Submit the below form or Shoot me an email to srinivasu.tangudu56@gmail.com</p>
             </div>
 
             <input className='bg-[#ccd6f6] p-2' type='text' placeholder='Name' name='name' required/>
