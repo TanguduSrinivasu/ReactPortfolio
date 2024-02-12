@@ -52,7 +52,7 @@ const Work = () => {
               </p>
 
               <div className='pt-8 text-center'>
-                <a href='https://reactnetflixott.netlify.app' target='_blank' rel="noopener noreferrer">
+                <a href='https://reactnetflixott.netlify.app/' target='_blank' rel="noopener noreferrer">
                   <button className='text-center bg-white rounded-lg px-4 py-3 m-2 text-gray-700 font-bold'>Demo</button>
                 </a>
 
